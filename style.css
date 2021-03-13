@@ -68,7 +68,7 @@ section .title::before {
   left: 50%;
   width: 180px;
   height: 3px;
-  background: #111;
+  background: white;
   transform: translateX(-50%);
 }
 section .title::after {
@@ -434,14 +434,27 @@ section .title::after {
 }
 
 /* contact section styling */
+.contact {
+  background: black;
+}
+
+.Get-in-Touch {
+  color: #f1f1f1;
+}
+#Get-in-Touch {
+  color: #f1f1f1;
+}
+
 .contact .title::after {
   content: "get in touch";
+  background-color: black;
 }
 .contact .contact-content .column {
   width: calc(50% - 30px);
 }
 .contact .contact-content .text {
   font-size: 20px;
+  color: white;
   font-weight: 600;
   margin-bottom: 10px;
 }
@@ -465,9 +478,10 @@ section .title::after {
 }
 .contact .contact-content .info .head {
   font-weight: 500;
+  color: rgb(245, 239, 239);
 }
 .contact .contact-content .info .sub-title {
-  color: #333;
+  color: rgb(245, 239, 239);
 }
 .contact .right form .fields {
   display: flex;
@@ -492,7 +506,7 @@ section .title::after {
 .contact .right form .textarea textarea {
   height: 100%;
   width: 100%;
-  border: 1px solid lightgrey;
+  border: 1px solid white;
   border-radius: 6px;
   outline: none;
   padding: 0 15px;
@@ -532,9 +546,9 @@ section .title::after {
 
 /* footer section styling */
 footer {
-  background: #111;
+  background: #fff;
   padding: 15px 23px;
-  color: #fff;
+  color: black;
   text-align: center;
 }
 footer span a {
